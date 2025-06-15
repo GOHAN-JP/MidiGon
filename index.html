@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #181818;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+        }
+        .hero img {
+            max-width: 600px;
+            width: 80vw;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+            margin-bottom: 32px;
+        }
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+        }
+        .hero-desc {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #b0b0b0;
+        }
+        @media (max-width: 600px) {
+            .hero-title {
+                font-size: 1.5rem;
+            }
+            .hero img {
+                max-width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="MidiGon2.png" alt="メインイメージ">
+        <div class="hero-title">Welcome to MidiGon GitHub Page</div>
+        <div class="hero-desc">Midiファイルを再生するアプリの紹介です</div>
+        <div class="hero-desc">
+            <a href="https://github.com/GOHAN-JP/MidiGon/releases/download/v1.0.0/SetupMidiGon100.exe" style="color: #4fc3f7; text-decoration: underline;">
+                MidiGon V1.0.0　ダウンロード
+            </a>
+        </div>
+    </div>
+</body>
+</html>
