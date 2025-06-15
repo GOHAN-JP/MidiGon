@@ -37,6 +37,4 @@
 
 ## お問い合わせ
 - 作者名：Gohan
-- 連絡先：example@example.com （必要に応じて）
-
 ご質問・不具合報告は [Issues](https://github.com/GOHAN-JP/MidiGon/issues) までお願いします。
