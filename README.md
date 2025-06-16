@@ -9,7 +9,7 @@
 - 各チャンネルごとの楽器名・色・ミュート設定
 - MIDI IN/OUT デバイスの選択
 - 透明化モード（ウィンドウを半透明にして常に最前面表示）
-- ウィンドウ位置・サイズ・設定の保存
+- ウィンドウ位置・設定の保存
 
 ## 動作環境
 - .NET 9
@@ -17,8 +17,8 @@
 - [NAudio](https://github.com/naudio/NAudio) ライブラリ
 
 ## インストール
-1. SetupMidiGonxxx.zipをダウンロードします。
-2. SetupMidiGonxxx.zipを解凍しSetupMidiGonxxx.exeを実行します。後はインストーラーに従って下さい。
+1. SetupMidiGonxxx.exeをダウンロードします。(xxxはバージョン番号)
+2. SetupMidiGonxxx.exeを実行します。後はインストーラーに従って下さい。
 
 ## 使い方
 1. `Open` ボタンでMIDIファイル（.mid）を選択します。
